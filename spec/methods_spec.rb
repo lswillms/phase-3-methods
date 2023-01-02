@@ -6,7 +6,7 @@ describe '#greet_programmer' do
   it 'outputs the string "Hello, programmer!"' do
     expect { greet_programmer }.to output(a_string_including("Hello, programmer!")).to_stdout
   end
-  
+
 end
 
 describe '#greet' do
@@ -42,7 +42,7 @@ describe '#add' do
 end
 
 describe '#halve' do
-  
+
   it 'returns half of the given integer' do
     expect(halve(6)).to be(3)
   end
